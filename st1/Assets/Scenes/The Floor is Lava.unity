@@ -241,6 +241,7 @@ GameObject:
   - component: {fileID: 169404912}
   - component: {fileID: 169404911}
   - component: {fileID: 169404910}
+  - component: {fileID: 169404914}
   m_Layer: 0
   m_Name: South Chute
   m_TagString: Untagged
@@ -335,6 +336,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: -5, y: 0, z: 0}
+--- !u!114 &169404914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 169404909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8c10977a486cf84283c9d8c0f3cce8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  positionChange: {x: 3, y: 1, z: 5}
 --- !u!1 &448866042
 GameObject:
   m_ObjectHideFlags: 0
@@ -774,6 +788,7 @@ GameObject:
   - component: {fileID: 1328163074}
   - component: {fileID: 1328163073}
   - component: {fileID: 1328163072}
+  - component: {fileID: 1328163076}
   m_Layer: 0
   m_Name: Plane (1)
   m_TagString: Untagged
@@ -868,6 +883,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &1328163076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1328163071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2c27c72bb453f74584b50f061dc1986, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotateChange: {x: 5, y: 0, z: 0}
 --- !u!1 &1395554151
 GameObject:
   m_ObjectHideFlags: 0
